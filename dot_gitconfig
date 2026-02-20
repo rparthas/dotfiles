@@ -1,0 +1,22 @@
+[user]
+	name = Rajagopal
+	email = rajagopal.parthasarathi@hingehealth.com
+	signingkey = /Users/rajagopal.parthasarathi/.ssh/id_hinge.pub
+[commit]
+	gpgsign = true
+[push]
+	autoSetupRemote = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /Users/rajagopal.parthasarathi/.ssh/allowed_signers
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
+[init]
+	defaultBranch = main
